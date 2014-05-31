@@ -1,0 +1,48 @@
+<html>
+<head>
+		<title>People</title>
+		<link href="desing.css" rel="stylesheet" type="text/css"/>
+		<style type="text/css" rel="stylelsheet">
+			{% include 'desing.css' %}
+		</style>
+
+</head>
+
+<body>
+
+	<div id="header-wrapper">
+
+		<div id="header" class="container">
+			<div id="logo">
+				<h1>PFC</h1>
+			</div>
+		</div>
+
+
+		<div id="menu">
+			<ul>
+				<li class="active"><a href= "http://localhost:1234/" accesskey='1' title="">Inicio</a></li>
+				<li class="active"><a href= "http://localhost:1234/people" accesskey='1' title="">Gente</a></li>
+			</ul>
+		</div>
+	</div>	
+
+	<div id="content" class= "container">
+		<div class="title">
+			<h2><p>HOLA</p></h2>
+		</div>
+		<p>{{info|safe}}</p>
+	
+
+	</div>
+
+
+	<div id="copyright">
+		<p> Copyright (c) PFC Almudena Mateos Lopez 2014. All rights reserved</p>
+	</div>
+
+</body>
+
+
+
+</html>

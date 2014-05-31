@@ -1,0 +1,300 @@
+html, body
+{
+	height: 100%;
+}
+
+
+body
+{
+margin: 0px;
+padding: 0px;
+background: #FFF;
+font-size: 12pt;
+}
+
+h1, h2, h3
+{
+margin: 0;
+padding: 0;
+color: #404040;
+}
+
+p, ol, ul
+{
+margin-top: 0;
+}
+
+ol, ul
+{
+padding: 0;
+list-style: none;
+}
+
+p
+{
+line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+color: #CC3399;
+}
+
+a:hover
+{
+text-decoration: none;
+}
+
+
+.container
+{
+margin: 0px auto;
+width: 1200px;
+}
+
+
+#list
+{
+width: 100%;
+border-collapse:collapse;
+margin-left: 2em;
+}
+
+#list td, #list th
+{
+border: 1px solid #C73399;
+padding: 3px 7px 3px 7px;
+font-size:0.9em;
+}
+
+#list th
+{
+font-size: 1.2em;
+text-align: left;
+padding-top: 5px;
+padding-bottom: 4px;
+background-color: #C73399;
+color: #fff;
+}
+
+#list tr.alt td
+{
+color: #000;
+background-color: #F6CEF5;
+}
+
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header
+{
+overflow: hidden;
+background: #C73399;
+text-align: center;
+}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+padding: 8em 0em 4em 0em;
+}
+
+#logo h1
+{
+display: inline-block;
+margin-bottom: 0.20em;
+padding: 0.20em 0.9em;
+font-size: 3.5em;
+color: #FFF;
+text-decoration: none;
+}
+
+
+
+
+/*********************************************************************************/
+/* Menu principal                                                                         */
+/*********************************************************************************/
+
+#mainmenu
+{
+height: 60px;
+text-align: right;
+}
+
+#mainmenu ul
+{
+display: inline-block;
+padding: 0em 2em;
+text-align: center;
+}
+
+#mainmenu li
+{
+display: inline-block;
+}
+
+#mainmenu li a, #mainmenu li span
+{
+display: inline-block;
+padding: 0em 1.5em;
+text-decoration: none;
+font-size: 0.90em;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 60px;
+outline: 0;
+color: #FFF;
+}
+
+#mainmenu li:hover a, #mainmenu li.active a, #mainmenu li.active span
+{
+background: #FFF;
+color: #CC3399;
+}
+
+#mainmenu .current_page_item a
+{
+}
+
+
+
+
+
+
+
+
+
+/*********************************************************************************/
+/* Menu lateral                                                                      */
+/*********************************************************************************/
+
+.menu
+{
+padding:0;
+list-style:none;
+width: 200px;
+font-size: 14px;
+background: #f6cef5;
+border: 1px solid rgba(0,0,0,0.8);
+}
+
+.menu li a
+{
+display:block;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+border-top: 1px solid rgba(255,255,255,0,2);
+background:#3e3f44;
+text-decoration: none;
+color: #FFF;
+text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+filter: dropshadow(color= #000, offx=1, offy=0);
+padding:10px;
+padding-left:10px;
+}
+
+
+.menu li a:hover
+{
+background:#a4a4a4;
+-moz-transition: background 0.3s ease-in;
+-webkit-transition: background 0.3s ease-in;
+-o-transition: background 0.3s ease-in;
+}
+
+
+.menu li ul li a
+{
+font-size:14px;
+color:#3e3f44;
+text-shadow: 1px 0px 1px rgba(255,255,255,0,5);
+}
+
+
+
+.menu ul
+{
+margin:0;
+padding:0;
+list-style:none;
+height:0;
+overflow:hidden;
+transition:1s;
+-moz-transition: 1s;
+-webkit-transition: 1s;
+}
+
+.menu li:hover ul
+{
+height: 120px;
+overflow-y:auto;
+overflow-x:hidden;
+}
+
+.menu ul li a
+{
+background:#fbeffb;
+}
+
+.menu ul li a:hover
+{
+background: none repeat scroll 0 0 #f6cef5;
+color:#3e3f44;
+-moz-transition: color 0.4s ease;
+-webkit-transition: color 0.4s ease;
+-o-transition: color 0.4s ease;
+}
+
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#content
+{
+float: left;
+width: 700px;
+padding-right: 100px;
+border-right: 1px solid rgba(0,0,0,.1);
+margin-left: 2em;
+}
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+overflow: hidden;
+padding: 5em 0em;
+border-top: 20px solid rgba(255,255,255,0.08);
+text-align: center;
+}
+
+#copyright p
+{
+letter-spacing: 1px;
+font-size: 0.90em;
+color: rgba(255,255,255,0.6);
+}
+
+#copyright a
+{
+text-decoration: none;
+color: rgba(255,255,255,0.8);
+}
+
+
+
